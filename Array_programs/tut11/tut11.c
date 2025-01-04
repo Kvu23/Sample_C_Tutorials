@@ -32,7 +32,7 @@ int main(void)
             c[i][j] = a[i][j] - b[i][j];
         }
     }
-    printf("\n resultant matrix c is :   \n");
+    printf("\n resultant matrix c substraction is :   \n");
     for (i = 0; i < 3; ++i)
     {
         for (j = 0; j < 3; ++j)
@@ -41,5 +41,23 @@ int main(void)
         }
         printf("\n");
     }
+
+    for (i = 0; i < 3; ++i)
+    {
+        for (j = 0; j < 3; ++j)
+        {
+            c[i][j] = a[i][j] + b[i][j];
+        }
+    }
+    printf("\n resultant matrix c addition is :   \n");
+    for (i = 0; i < 3; ++i)
+    {
+        for (j = 0; j < 3; ++j)
+        {
+            printf("%d\t", c[i][j]);
+        }
+        printf("\n");
+    }
+
     return 0;
 }
