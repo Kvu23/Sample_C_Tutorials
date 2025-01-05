@@ -1,3 +1,4 @@
+/*program to rotate bits*/
 #include <stdio.h>
 #define INT_BITS 32
 
