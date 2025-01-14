@@ -2,11 +2,12 @@ CC = gcc
 CFLAGS = -g -Wall -Werror -std=c17
 APPNAME = output
 OBJ = tut1.o
+LIB = # add any library if any here
 
 all: ${APPNAME}
 
 ${APPNAME}:${OBJ}
-	${CC} -o $@ $^
+	${CC} -o $@ $^ ${LIB}
 
 %.o:%.c
 	${CC} ${CFLAGS} -c $< -o $@
