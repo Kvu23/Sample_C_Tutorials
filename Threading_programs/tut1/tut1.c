@@ -4,13 +4,13 @@
 void *Thread1(void *arg)
 {
     printf("Hello from thread 1\n\n");
-    return NULL;
+    pthread_exit(NULL);
 }
 
 void *Thread2(void *arg)
 {
     printf("Hello from thread 2\n\n");
-    return NULL;
+    pthread_exit(NULL);
 }
 
 int main(int argc, char const *argv[])
@@ -22,6 +22,7 @@ int main(int argc, char const *argv[])
     pthread_create(&tid1, NULL, Thread1, NULL);
     pthread_create(&tid2, NULL, Thread2, NULL);
 
+    /*Join the threads firsts*/
     pthread_join(tid1, NULL);
     pthread_join(tid2, NULL);
 
