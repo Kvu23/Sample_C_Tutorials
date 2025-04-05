@@ -10,6 +10,7 @@ int main(int argc, char const *argv[])
     {
         printf("Enter the sales amount in dollars (-1 to end): ");
         scanf("%f", &sales);
+        printf("Sales amount is: $%.2f\n", sales);
         if (sales == -1)
         {
             flag = false;
