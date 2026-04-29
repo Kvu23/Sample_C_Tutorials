@@ -1,4 +1,16 @@
 #include <stdio.h>
+/*
+ * tut45.c - Sort three numbers in increasing order
+ *
+ * Description:
+ *   Reads three distinct integers from the user and prints them to the
+ *   console in increasing numerical order. It uses a series of if-else if
+ *   statements to determine the correct order.
+ *
+ * Usage:
+ *   Compile: gcc tut45.c -o tut45
+ *   Run: ./tut45 (prompts for three numbers)
+ */
 
 int main(void)
 {

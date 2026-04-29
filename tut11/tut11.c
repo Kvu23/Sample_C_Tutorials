@@ -1,6 +1,20 @@
-/* these are the sample interview  programs asked in the huawei */
+/*
+ * tut11.c - C language feature demonstrations (interview snippets)
+ *
+ * Description:
+ *   This file contains multiple small C code snippets, often used in interview
+ *   settings to demonstrate specific language behaviors. Each snippet is
+ *   typically enclosed in `#if 0` / `#if 1` preprocessor directives, allowing
+ *   individual sections to be compiled and tested.
+ *   The currently active section demonstrates the behavior of `#define` and
+ *   `#undef` preprocessor directives across different functions.
+ *
+ * Usage:
+ *   Compile: gcc tut11.c -o tut11
+ *   Run: ./tut11
+ *   (Note: To test other snippets, change their `#if 0` to `#if 1` and vice-versa.)
+ */
 #include <stdio.h>
-#if 0
 int main()
 {
 	int a, b;
@@ -22,20 +36,17 @@ void foo2();
 #define a 10
 int main()
 {
-    printf("%d\n", a);
-    foo1();
-    printf("%d\n", a);
-    foo2();
-    printf("%d\n", a);
-    return 0;
+	printf("%d\n", a);
+	foo1();
+	printf("%d\n", a);
+	foo2();
+	printf("%d\n", a);
+	return 0;
 }
-void foo1()
-{
+void foo1(){
 #undef a
 #define a 20
-}
-void foo2()
-{
+} void foo2(){
 #undef a
 #define a 31
 }
