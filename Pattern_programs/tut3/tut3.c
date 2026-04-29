@@ -1,4 +1,4 @@
-#/*
+/*
  * pattern1.c - multiple pattern printing functions
  *
  * Description:
