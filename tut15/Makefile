@@ -1,4 +1,4 @@
-CC = gcc
+CC = gcc-13
 CFLAGS = -g -Wall -Werror -std=c2x
 APPNAME = output
 OBJ = tut15.o
