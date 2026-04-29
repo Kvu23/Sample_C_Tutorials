@@ -1,4 +1,14 @@
-/*print Number patterns */
+/*
+ * tut2.c - Multiplication Table (12x12)
+ *
+ * Description:
+ *   Prints a 12x12 multiplication table to the console. Each row represents
+ *   the multiples of a number from 1 to 12.
+ *
+ * Usage:
+ *   Compile: gcc tut2.c -o tut2
+ *   Run: ./tut2
+ */
 
 #include <stdio.h>
 

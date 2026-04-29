@@ -1,13 +1,13 @@
 /*
- * pattern15.c - diamond-like star pattern
+ * tut17.c - diamond-like star pattern
  *
  * Description:
  *   Prints an upward triangle of '*' (rows 1..5) followed by a downward
  *   triangle (rows 4..1) to form a diamond-like shape when viewed together.
  *
  * Usage:
- *   Compile: gcc pattern15.c -o pattern15
- *   Run: ./pattern15
+ *   Compile: gcc tut17.c -o tut17
+ *   Run: ./tut17
  */
 
 #include <stdio.h>

@@ -1,5 +1,5 @@
 /*
- * pattern1.c - multiple pattern printing functions
+ * tut3.c - multiple pattern printing functions
  *
  * Description:
  *   Provides several console pattern-printing functions used as examples
@@ -8,8 +8,8 @@
  *   hollow square and hollow pyramid.
  *
  * Usage:
- *   Compile: gcc pattern1.c -o pattern1
- *   Run: ./pattern1  (prompts for `n` and uses default 5 on invalid input)
+ *   Compile: gcc tut3.c -o tut3
+ *   Run: ./tut3  (prompts for `n` and uses default 5 on invalid input)
  */
 
 #include <stdio.h>

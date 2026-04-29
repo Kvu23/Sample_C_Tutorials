@@ -1,13 +1,13 @@
 /*
- * pattern5.c - centered numeric triangle
+ * tut7.c - centered numeric triangle
  *
  * Description:
  *   Prints a right/centered triangle where each row contains numbers 1..i,
  *   preceded by spaces to align the triangle to the center/right.
  *
  * Usage:
- *   Compile: gcc pattern5.c -o pattern5
- *   Run: ./pattern5
+ *   Compile: gcc tut7.c -o tut7
+ *   Run: ./tut7
  */
 
 #include <stdio.h>

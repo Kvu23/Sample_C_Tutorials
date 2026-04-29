@@ -1,13 +1,13 @@
 /*
- * pattern9.c - mirrored/centered star block
+ * tut11.c - mirrored/centered star block
  *
  * Description:
  *   Produces a more complex centered/mirrored star pattern. Uses multiple
  *   loops to indent and print stars in symmetric groups.
  *
  * Usage:
- *   Compile: gcc pattern9.c -o pattern9
- *   Run: ./pattern9
+ *   Compile: gcc tut11.c -o tut11
+ *   Run: ./tut11
  */
 
 #include <stdio.h>

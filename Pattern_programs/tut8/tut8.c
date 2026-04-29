@@ -1,12 +1,12 @@
 /*
- * pattern6.c - growing numeric triangle
+ * tut8.c - growing numeric triangle
  *
  * Description:
  *   Prints rows of increasing numbers: row i contains numbers 1..i.
  *
  * Usage:
- *   Compile: gcc pattern6.c -o pattern6
- *   Run: ./pattern6
+ *   Compile: gcc tut8.c -o tut8
+ *   Run: ./tut8
  */
 
 #include <stdio.h>

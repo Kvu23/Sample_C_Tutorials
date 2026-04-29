@@ -1,3 +1,16 @@
+/*
+ * tut1.c - right-aligned growing triangle with user-defined initial spacing
+ *
+ * Description:
+ *   Reads an integer `no_of_spaces` from the user. Prints a right-aligned
+ *   triangle of '*' characters. Each row has leading spaces that decrease
+ *   with each row, and the number of stars increases. The initial indentation
+ *   is set by the user input.
+ *
+ * Usage:
+ *   Compile: gcc tut1.c -o tut1
+ *   Run: ./tut1 (prompts for initial number of spaces)
+ */
 #include <stdio.h>
 int main()
 {
