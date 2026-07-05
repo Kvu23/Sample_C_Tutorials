@@ -1,6 +1,6 @@
-#include <stdio.h>
+/*this program demonstrates simple exercises of the pointer operations*/
 
-#define MERGE(a, b) (a##b)
+#include <stdio.h>
 
 int main(void) {
   int arr[5] = {100, 200, 300, 400, 500};
